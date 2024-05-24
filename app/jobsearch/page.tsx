@@ -12,8 +12,9 @@ import cardBG03 from "../../public/img/123456.jpg";
 
 
 import Contacts from "@/app/components/contacts";
-import {Col, Container, Form, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import React from "react";
+import Contactsform from "@/app/components/contactsform";
 // import {useState} from "react";
 // import {Button, Modal, Form, InputGroup} from "react-bootstrap";
 // import ModalDialog from "@/app/components/modal";
@@ -273,25 +274,8 @@ export default function JobSearchPage() {
                                 чтобы обсудить ваш профиль и возможные варианты для вашего трудоустройства.
                                         </p>
                                     </Col>
-                                    <Col lg="4" className="bg-body-secondary p-4 rounded">
-                                        <Form className="">
-                                          <Form.Group className="mb-3" controlId="formBasicEmail">
-                                            <Form.Label className="text-dark">Фамилия Имя</Form.Label>
-                                            <Form.Control type="email" placeholder="Фамилия Имя" />
-                                          </Form.Group>
-
-                                          <Form.Group className="mb-3" controlId="formBasicPassword">
-                                            <Form.Label className="text-dark">Номер телефона</Form.Label>
-                                            <Form.Control type="password" placeholder="+7 (900) 00 00" />
-                                          </Form.Group>
-                                            <Form.Group className="mb-3" controlId="formBasicPassword">
-                                            <Form.Label className="text-dark">E-mail</Form.Label>
-                                            <Form.Control type="password" placeholder="email@example.com" />
-                                          </Form.Group>
-                                          <button className={`${styles.hoverBG} btn px-4 w-100`} type="submit">
-                                            Отправить
-                                          </button>
-                                        </Form>
+                                    <Col lg="4" className="">
+                                        <Contactsform />
                                     </Col>
                                 </Row>
                             </Container>

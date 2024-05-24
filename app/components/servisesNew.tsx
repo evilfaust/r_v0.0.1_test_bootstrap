@@ -142,7 +142,7 @@ const servisesNew = () => {
                                         <p className={"card.[`copy`] d-none d-sm-block"}>
                                             Создайте привлекательное резюме и выделяйтесь на фоне конкурентов.
                                         </p>
-                                        <a className={`${styles.hoverBG} btn`}>подробнее</a>
+                                        <a className={`${styles.hoverBG} btn`} href="/resume">подробнее</a>
                                     </div>
                                 </div>
                                 <div className={card.card}>
@@ -151,7 +151,7 @@ const servisesNew = () => {
                                         <p className={"card.[`copy`] d-none d-sm-block"}>
                                             Персональная стратегия для достижения карьерных целей.
                                         </p>
-                                        <a className={`${styles.hoverBG} btn`}>подробнее</a>
+                                        <a className={`${styles.hoverBG} btn`} href="/career">подробнее</a>
                                     </div>
                                 </div>
                                 {/*<div className={card.card}>*/}

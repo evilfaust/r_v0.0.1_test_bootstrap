@@ -2,9 +2,10 @@
 import NavBar from '../components/navbar';
 import Image from "next/image";
 import styles from "@/app/blog/page.module.css";
-import {Col, Form, Row} from "react-bootstrap";
+import {Col, Row} from "react-bootstrap";
 import React from "react";
 import Contacts from "@/app/components/contacts";
+import Contactsform from "@/app/components/contactsform";
 export default function SearchCompanyPage() {
 
     return (
@@ -88,38 +89,38 @@ export default function SearchCompanyPage() {
                             </h2>
                                 <div className="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 g-4 py-5">
                                     <div className="col d-flex align-items-start">
-                                        <Image src="/img/icon-021.svg" width={50} height={50} alt=""/>
+                                        <Image src="/img/icon-023.svg" width={50} height={50} alt=""/>
                                         <div>
-                                            <h4 className="fw-bold mb-0 fs-5 text-light">
-                                                Подбор персонала различных уровней и специализаций.
+                                            <h4 className="fw-bold mb-0 fs-5" style={{color: "#FFC803"}}>
+                                                Подбор персонала различных уровней и специализаций
                                             </h4>
                                             {/*<p>Paragraph of text beneath the heading to explain the heading.</p>*/}
                                         </div>
                                     </div>
                                     <div className="col d-flex align-items-start">
-                                        <Image src="/img/icon-020.svg" width={50} height={50} alt=""/>
+                                        <Image src="/img/icon-022.svg" width={50} height={50} alt=""/>
                                         <div>
-                                            <h4 className="fw-bold mb-0 fs-5 text-light">
+                                            <h4 className="fw-bold mb-0 fs-5" style={{color: "#FFC803"}}>
                                                 Оценка потребностей компании и разработка стратегии поиска кандидатов.
                                             </h4>
                                             {/*<p>Paragraph of text beneath the heading to explain the heading.</p>*/}
                                         </div>
                                     </div>
                                     <div className="col d-flex align-items-start">
-                                        <Image src="/img/icon-021.svg" width={50} height={50} alt=""/>
+                                        <Image src="/img/icon-023.svg" width={50} height={50} alt=""/>
                                         <div>
-                                            <h3 className="fw-bold mb-0 fs-5 text-light">
-                                                Проведение собеседований и тестирование кандидатов.
-                                            </h3>
+                                            <h4 className="fw-bold mb-0 fs-5" style={{color: "#FFC803"}}>
+                                                Проведение собеседований и тестирование кандидатов
+                                            </h4>
                                             {/*<p>Paragraph of text beneath the heading to explain the heading.</p>*/}
                                         </div>
                                     </div>
                                     <div className="col d-flex align-items-start">
-                                        <Image src="/img/icon-020.svg" width={50} height={50} alt=""/>
+                                        <Image src="/img/icon-022.svg" width={50} height={50} alt=""/>
                                         <div>
-                                            <h3 className="fw-bold mb-0 fs-5 text-light">
-                                                Помощь в проведении адаптации новых сотрудников.
-                                            </h3>
+                                            <h4 className="fw-bold mb-0 fs-5" style={{color: "#FFC803"}}>
+                                                Помощь в проведении адаптации новых сотрудников
+                                            </h4>
                                             {/*<p>Paragraph of text beneath the heading to explain the heading.</p>*/}
                                         </div>
                                     </div>
@@ -137,7 +138,7 @@ export default function SearchCompanyPage() {
                                                height={32} className=""/>
                                     </div>
                                     <h4 className="fw-semibold mb-0" style={{color: "#FFC803"}}>Свяжитесь с нами: </h4>
-                                    <p className="text-body-secondary">
+                                    <p className="">
                                         Оставьте заявку на нашем сайте или позвоните нам для начала сотрудничества.
                                     </p>
                                 </div>
@@ -150,7 +151,7 @@ export default function SearchCompanyPage() {
                                     </div>
                                     <h4 className="fw-semibold mb-0 " style={{color: "#FFC803"}}>Обсуждение
                                         потребностей:</h4>
-                                    <p className="text-body-secondary">
+                                    <p className="">
                                         Мы обсудим ваши требования и ожидания от новых сотрудников, чтобы разработать
                                         наилучшую стратегию подбора.
                                     </p>
@@ -164,7 +165,7 @@ export default function SearchCompanyPage() {
                                     </div>
                                     <h4 className="fw-semibold mb-0 " style={{color: "#FFC803"}}>Подбор
                                         кандидатов: </h4>
-                                    <p className="text-body-secondary">
+                                    <p className="">
                                         Мы начнем поиск и предложим вам наиболее подходящих кандидатов для вашей
                                         компании.
                                     </p>
@@ -177,7 +178,7 @@ export default function SearchCompanyPage() {
                                                height={32} className=""/>
                                     </div>
                                     <h4 className="fw-semibold mb-0 " style={{color: "#FFC803"}}>Оценка и прием: </h4>
-                                    <p className="text-body-secondary">
+                                    <p className="">
                                         Мы поможем вам с оценкой кандидатов и проведением интервью,
                                         чтобы вы могли принять правильное решение.
                                     </p>
@@ -187,39 +188,6 @@ export default function SearchCompanyPage() {
                     </div>
                 </div>
             </section>
-            {/*<section className="container-fluid px-4 py-5" id="">*/}
-            {/*    <div className="row align-items-md-stretch">*/}
-            {/*        <div className="col-md-6">*/}
-            {/*            <div className="h-100 p-5 text-bg-dark rounded-3">*/}
-            {/*                <h2>Наши услуги</h2>*/}
-            {/*                <ul>*/}
-            {/*                    <li>*/}
-            {/*                        Подбор персонала различных уровней и специализаций.*/}
-            {/*                    </li>*/}
-            {/*                    <li>*/}
-            {/*                        Оценка потребностей компании и разработка стратегии поиска кандидатов.*/}
-            {/*                    </li>*/}
-            {/*                    <li>*/}
-            {/*                        Проведение собеседований и тестирование кандидатов.*/}
-            {/*                    </li>*/}
-            {/*                    <li>*/}
-            {/*                        Помощь в проведении адаптации новых сотрудников.*/}
-            {/*                    </li>*/}
-            {/*                </ul>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*        <div className="col-md-6">*/}
-            {/*            <div className="h-100 p-5 bg-body-tertiary border rounded-3">*/}
-            {/*                <h2>Add borders</h2>*/}
-            {/*                <p>Or, keep it light and add a border for some added definition to the boundaries of your*/}
-            {/*                    content. Be sure to look under the hood at the source HTML here as we've adjusted the*/}
-            {/*                    alignment and sizing of both column's content for equal-height.</p>*/}
-            {/*                <button className="btn btn-outline-secondary" type="button">Example button</button>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</section>*/}
-
             <section className="container px-4 py-5" id="">
                 <div className="p-5 mb-4 bg-body-tertiary rounded-3">
                     <div className="container-fluid py-5">
@@ -234,24 +202,7 @@ export default function SearchCompanyPage() {
                                 </p>
                             </Col>
                             <Col lg="4">
-                                <Form className="p-4 rounded" style={{backgroundColor: "#444863"}}>
-                                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                                        <Form.Label className="text-light">Фамилия Имя</Form.Label>
-                                        <Form.Control type="email" placeholder="Фамилия Имя" />
-                                    </Form.Group>
-
-                                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                                        <Form.Label className="text-light">Номер телефона</Form.Label>
-                                        <Form.Control type="password" placeholder="+7 (900) 00 00" />
-                                    </Form.Group>
-                                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                                        <Form.Label className="text-light">E-mail</Form.Label>
-                                        <Form.Control type="password" placeholder="email@example.com" />
-                                    </Form.Group>
-                                    <button className={`${styles.hoverBG} btn px-4 w-100`} type="submit">
-                                        Отправить
-                                    </button>
-                                </Form>
+                                <Contactsform />
                             </Col>
                         </Row>
                     </div>
