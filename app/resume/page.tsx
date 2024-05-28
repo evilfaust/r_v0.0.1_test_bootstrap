@@ -4,9 +4,9 @@ import styles from "@/app/blog/page.module.css";
 import React from "react";
 import BaseCards from "@/app/components/basecards";
 import resume001 from "@/public/img/resume001.png";
-import resume002 from "@/public/img/resume002.png";
+// import resume002 from "@/public/img/resume002.png";
 import resume003 from "@/public/img/resume003.png";
-import resume004 from "@/public/img/resume004.png";
+// import resume004 from "@/public/img/resume004.png";
 import resume005 from "@/public/img/resume005.png";
 import resume006 from "@/public/img/resume006.png";
 import Image from "next/image";
@@ -27,10 +27,11 @@ const Resume = () => {
             <NavBar/>
             <section className={styles[`bg-ani-002`]}>
                 <div className="px-4 py-5 my-5 text-center text-light">
-                    <Image className="d-block mx-auto mb-4" src={resume002.src} alt={" "} width={250}
-                         height={250} style={{width: "auto", height: "250px"}}/>
+                    <Image className="d-block mx-auto mb-4" src="/img/mayak.svg" alt={" "} width={250}
+                         height={250} style={{width: "auto", height: "50px"}}/>
+                    {/*{resume002.src}*/}
                     <h1 className="display-5 fw-bold">Помощь в Подготовке Резюме</h1>
-                    <h6 className="text-center text-light">Ваш успешный старт начинается с идеального резюме</h6>
+                    <h6 className="display-6 text-center text-light">Ваш успешный старт начинается с идеального резюме</h6>
                     <div className="col-lg-6 mx-auto">
                         <p className="lead mb-4 text-left text-light">
                             В современном мире профессиональный успех во многом зависит от того, как вы презентуете свои

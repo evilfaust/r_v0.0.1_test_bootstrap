@@ -36,14 +36,14 @@ export default function JobSearchPage() {
                         {/*    Найдите идеальную работу для себя с центром карьеры RUDA.*/}
                         {/*</p>*/}
                         <p className="lead mb-4">Центр карьеры RUDA предоставляет доступ к самым актуальным и разнообразным вакансиям на рынке труда. Наша цель - помочь вам найти работу, которая соответствует вашим навыкам, желаниям и карьерным целям.</p>
-                        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                            <button type="button" className={`${styles.hoverBG} btn btn-lg px-4 me-sm-3`}>
-                                Кнопка 1
-                            </button>
-                            <button type="button" className={`${styles.hoverBG} btn btn-lg px-4`}>
-                                Кнопка 2
-                            </button>
-                        </div>
+                        {/*<div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">*/}
+                        {/*    <button type="button" className={`${styles.hoverBG} btn btn-lg px-4 me-sm-3`}>*/}
+                        {/*        Кнопка 1*/}
+                        {/*    </button>*/}
+                        {/*    <button type="button" className={`${styles.hoverBG} btn btn-lg px-4`}>*/}
+                        {/*        Кнопка 2*/}
+                        {/*    </button>*/}
+                        {/*</div>*/}
                     </div>
                     <div className="overflow-hidden" style={{maxHeight: "30vh"}}>
                         <div className="container px-5 text-center">
@@ -53,7 +53,7 @@ export default function JobSearchPage() {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="my-5">
                 <div className="container px-4 py-5" id="custom-cards">
                     <h2 className="pb-2n text-center">Найдите идеальную работу для себя с центром карьеры RUDA.</h2>
 
@@ -166,8 +166,8 @@ export default function JobSearchPage() {
                 <div className="container">
                     <div className="row">
                         <div className="h-100 p-5 rounded-3 text-light" style={{backgroundColor: "#444863"}}>
-                            <h2>Начните поиск работы уже сегодня!</h2>
-                            <p>
+                            <h2 className="text-center">Начните поиск работы уже сегодня!</h2>
+                            <p className="text-center">
                               Просто просмотрите наши последние вакансии ниже и свяжитесь с нами,
                                 чтобы начать свой путь к новой карьере.
                             </p>
@@ -279,17 +279,6 @@ export default function JobSearchPage() {
                                     </Col>
                                 </Row>
                             </Container>
-                            <br/>
-                            <p>
-                                Не нашли подходящей вакансии? Если вы не нашли подходящей вакансии в нашем списке,
-                                не беспокойтесь! Оставьте свои контактные данные, и наши консультанты свяжутся с вами,
-                                чтобы обсудить ваш профиль и возможные варианты для вашего трудоустройства.
-                                <br/>
-                                [Форма обратной связи]
-                                <br/>
-                                Доверьте свой поиск работы профессионалам центра карьеры RUDA и найдите идеальную работу для себя!
-                            </p>
-                            {/*<button className="btn btn-outline-light" type="button">Example button</button>*/}
                         </div>
                     </div>
                 </div>
