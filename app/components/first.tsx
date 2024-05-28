@@ -6,6 +6,7 @@ import "../blog/page.module.css"
 import styles from '../blog/page.module.css'
 // import Round from '../components/round'
 import Image from "next/image";
+import CastingButton from "@/app/components/castingbutton";
 // import {useEffect, useState} from "react";
 // import ImageBG from "../../public/img/bg-008.png"
 const First = () => {
@@ -61,9 +62,7 @@ const First = () => {
                                         помогающих нашим клиентам достичь успеха в их профессиональном росте.</p>
                                     <div className="row">
                                         <div className="col-lg-4 col-ms-12" style={{padding: "5px"}}>
-                                            <a className={`${styles.hoverBG} btn w-100`} href="" >
-                                                Заявка на подбор
-                                            </a>
+                                            <CastingButton />
                                         </div>
                                         <div className="col-lg-4 col-ms-12" style={{padding: "5px"}}>
                                             <a className={`${styles.hoverBG} btn w-100`} type="button"

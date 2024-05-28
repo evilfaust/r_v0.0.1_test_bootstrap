@@ -1,7 +1,10 @@
-// 'use client'
+'use client'
 
 import Image from "next/image";
-import styles from "@/app/blog/page.module.css";
+// import styles from "@/app/blog/page.module.css";
+// import {Modal} from "react-bootstrap";
+// import {useState} from "react";
+import CastingButton from "@/app/components/castingbutton";
 // import {useEffect} from "react";
 
 const NavBar = () => {
@@ -10,6 +13,8 @@ const NavBar = () => {
   //   // import("bootstrap/dist/js/bootstrap");
   //
   // }, []);
+
+
 
   return (
       <>
@@ -77,23 +82,20 @@ const NavBar = () => {
                 {/*role="search"*/}
                 {/*<input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>*/}
                 {/*<button className="btn btn-outline-success" type="submit">Search</button>*/}
-                <button className={`${styles.hoverBG}`} type="button"
-                        style={{
-                              // background: "#444863",
-                              // color: "#FFFFFF",
-                              // boxShadow: "2px 0 5px 0 #444863",
-                              // boxShadow: "2px 2px 0 0 #FFC803",
-                              // borderRadius: "1px"
-                          padding: "0 10px",
-                          }}>
-                  Заявка на подбор
-                </button>
+
+                  <CastingButton />
 
               </div>
             </div>
           </div>
         </nav>
         </div>
+
+
+
+
+
+
       </>
   );
 };
