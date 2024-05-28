@@ -35,7 +35,9 @@ const [showButton, setShowButton] = useState(true);
   // const chatId = process.env.TELEGRAM_CHAT_ID;
 
   const botToken = '6835479669:AAGslFIK0rz-d6gvFkpF-cbwtpNSOlYJYqo';
-  const chatId = '328497552';
+  // const chatId = '328497552';
+  const chatId = '289631419';
+
 
   const removeAlert = () => {
     setSuccess(false);
