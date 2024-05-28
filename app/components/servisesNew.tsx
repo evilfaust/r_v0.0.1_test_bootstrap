@@ -41,10 +41,12 @@ const servisesNew = () => {
                                                height: "50px"
                                            }}/>
                                     Наши услуги</h1>
-                                <p className="lead text-light">Something short and leading about the collection
-                                    below—its contents, the creator, etc. Make it short and sweet, but not too short so
-                                    folks
-                                    don’t simply skip over it entirely.</p>
+                                <p className="lead text-light">
+                                    В этом разделе вы сможете найти помощь в поиске работы, подборе сотрудников,
+                                    подготовке резюме и карьерной консультации. Мы предлагаем профессиональные
+                                    решения для вашего карьерного роста и успеха вашей компании.
+                                    Something short and leading about the collection
+                                    </p>
                                 <p>
                                     <a className={`${styles.hoverBG} btn my-2`} href="" style={{marginRight: "10px"}}>
                                         Заявка на подбор
