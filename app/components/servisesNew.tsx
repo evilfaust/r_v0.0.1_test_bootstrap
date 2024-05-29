@@ -45,7 +45,6 @@ const servisesNew = () => {
                                     В этом разделе вы сможете найти помощь в поиске работы, подборе сотрудников,
                                     подготовке резюме и карьерной консультации. Мы предлагаем профессиональные
                                     решения для вашего карьерного роста и успеха вашей компании.
-                                    Something short and leading about the collection
                                     </p>
                                 <p>
                                     <a className={`${styles.hoverBG} btn my-2`} href="" style={{marginRight: "10px"}}>

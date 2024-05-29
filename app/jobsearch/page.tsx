@@ -165,7 +165,7 @@ export default function JobSearchPage() {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="h-100 p-5 rounded-3 text-light" style={{backgroundColor: "#444863"}}>
+                        <div className="h-100 p-5 rounded-3 text-light" style={{backgroundColor: "#383c52"}}>
                             <h2 className="text-center">Начните поиск работы уже сегодня!</h2>
                             <p className="text-center">
                               Просто просмотрите наши последние вакансии ниже и свяжитесь с нами,

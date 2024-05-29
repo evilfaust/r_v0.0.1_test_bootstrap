@@ -28,7 +28,7 @@ const CastingButton = () => {
                     <div className="rounded-2" style={{backgroundColor: '#383c52'}}>
 
                         <Modal.Header closeButton>
-                            <Modal.Title className="text-center text-light">Заявка на подбор персонала</Modal.Title>
+                            <Modal.Title className="text-center"><span style={{color: '#FFC803'}}>Заявка на подбор персонала</span></Modal.Title>
                         </Modal.Header>
                         <Modal.Body>
                             <CastingForm handleClose={handleClose}/>
