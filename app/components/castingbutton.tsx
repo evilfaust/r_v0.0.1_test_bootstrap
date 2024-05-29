@@ -13,14 +13,6 @@ const CastingButton = () => {
     return (
         <>
             <button className={`${styles.hoverBG} btn w-100`} type="button"
-                    style={{
-                        // background: "#444863",
-                        // color: "#FFFFFF",
-                        // boxShadow: "2px 0 5px 0 #444863",
-                        // boxShadow: "2px 2px 0 0 #FFC803",
-                        // borderRadius: "1px"
-                        // padding: "0 10px",
-                    }}
                     onClick={handleShow}>
                 Заявка на подбор
             </button>
@@ -30,15 +22,20 @@ const CastingButton = () => {
                 size="lg"
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
+
             >
-                <Modal.Header closeButton>
-                    <Modal.Title>Заявка на подбор персонала</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    <CastingForm handleClose={handleClose}/>
-                </Modal.Body>
+                {/*<div className={`${styles[`bg-ani-002`]} rounded-2`}>*/}
+                    <div className="rounded-2" style={{backgroundColor: '#383c52'}}>
+
+                        <Modal.Header closeButton>
+                            <Modal.Title className="text-center text-light">Заявка на подбор персонала</Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                            <CastingForm handleClose={handleClose}/>
+                        </Modal.Body>
+                    </div>
             </Modal>
         </>
-    )
+)
 }
 export default CastingButton;
