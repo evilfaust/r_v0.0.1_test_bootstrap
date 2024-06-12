@@ -9,12 +9,13 @@ import cardBG01 from "../../public/img/1234.jpg";
 import cardBG02 from "../../public/img/12345.jpg";
 import cardBG03 from "../../public/img/123456.jpg";
 // import cardBG03 from "../../public/img/unsplash-photo-3.jpg";
-
+import rudaTelescope from "@/public/img/telescope.svg";
 
 import Contacts from "@/app/components/contacts";
 import {Col, Container, Row} from "react-bootstrap";
 import React from "react";
 import Contactsform from "@/app/components/contactsform";
+import HeroPage from "@/app/components/heroPage";
 // import {useState} from "react";
 // import {Button, Modal, Form, InputGroup} from "react-bootstrap";
 // import ModalDialog from "@/app/components/modal";
@@ -28,34 +29,42 @@ export default function JobSearchPage() {
     return (
         <>
             <NavBar/>
-            <section className={styles[`bg-ani-002`]}>
-                <div className="px-4 pt-5 my-5  border-bottom text-light">
-                    <h1 className="display-4 fw-bold text-center text-light">Поиск работы</h1>
-                    <div className="col-lg-6 mx-auto">
-                        {/*<p className="lead mb-2">*/}
-                        {/*    Найдите идеальную работу для себя с центром карьеры RUDA.*/}
-                        {/*</p>*/}
-                        <p className="lead mb-4">Центр карьеры RUDA предоставляет доступ к самым актуальным и разнообразным вакансиям на рынке труда. Наша цель - помочь вам найти работу, которая соответствует вашим навыкам, желаниям и карьерным целям.</p>
-                        {/*<div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">*/}
-                        {/*    <button type="button" className={`${styles.hoverBG} btn btn-lg px-4 me-sm-3`}>*/}
-                        {/*        Кнопка 1*/}
-                        {/*    </button>*/}
-                        {/*    <button type="button" className={`${styles.hoverBG} btn btn-lg px-4`}>*/}
-                        {/*        Кнопка 2*/}
-                        {/*    </button>*/}
-                        {/*</div>*/}
-                    </div>
-                    <div className="overflow-hidden" style={{maxHeight: "30vh"}}>
-                        <div className="container px-5 text-center">
-                            <Image src="/img/test-hero-img-002.png" className="img-fluid mb-4"
-                                   alt="Example image" width="700" height="500" loading="lazy"/>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="my-5">
+            <HeroPage title={"Поиск работы"}
+                      shortDiscription={"Центр карьеры RUDA предоставляет доступ к самым актуальным и разнообразным вакансиям на рынке труда."}
+                      discription={"Центр карьеры RUDA предоставляет доступ к самым актуальным и разнообразным вакансиям на рынке труда. Наша цель - помочь вам найти работу, которая соответствует вашим навыкам, желаниям и карьерным целям."}
+                      image={`${rudaTelescope.src}`} />
+
+            {/*<section className={styles[`bg-ani-002`]}>*/}
+            {/*    <div className="px-4 pt-5 my-5  border-bottom text-light">*/}
+            {/*        <h1 className="display-4 fw-bold text-center text-light">Поиск работы</h1>*/}
+            {/*        <div className="col-lg-6 mx-auto">*/}
+            {/*            /!*<p className="lead mb-2">*!/*/}
+            {/*            /!*    Найдите идеальную работу для себя с центром карьеры RUDA.*!/*/}
+            {/*            /!*</p>*!/*/}
+            {/*            <p className="lead mb-4">Центр карьеры RUDA предоставляет доступ к самым актуальным и разнообразным*/}
+            {/*                вакансиям на рынке труда. Наша цель - помочь вам найти работу, которая соответствует вашим навыкам,*/}
+            {/*                желаниям и карьерным целям.*/}
+            {/*            </p>*/}
+            {/*            /!*<div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">*!/*/}
+            {/*            /!*    <button type="button" className={`${styles.hoverBG} btn btn-lg px-4 me-sm-3`}>*!/*/}
+            {/*            /!*        Кнопка 1*!/*/}
+            {/*            /!*    </button>*!/*/}
+            {/*            /!*    <button type="button" className={`${styles.hoverBG} btn btn-lg px-4`}>*!/*/}
+            {/*            /!*        Кнопка 2*!/*/}
+            {/*            /!*    </button>*!/*/}
+            {/*            /!*</div>*!/*/}
+            {/*        </div>*/}
+            {/*        <div className="overflow-hidden" style={{maxHeight: "30vh"}}>*/}
+            {/*            <div className="container px-5 text-center">*/}
+            {/*                <Image src="/img/test-hero-img-002.png" className="img-fluid mb-4"*/}
+            {/*                       alt="Example image" width="700" height="500" loading="lazy"/>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
+            <section className="" style={{backgroundColor: '#383c52', marginTop: '-3rem'}}>
                 <div className="container px-4 py-5" id="custom-cards">
-                    <h2 className="pb-2n text-center">Найдите идеальную работу для себя с центром карьеры RUDA.</h2>
+                    <h2 className="pb-2n text-center text-light">Найдите идеальную работу для себя с центром карьеры RUDA.</h2>
 
                     <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                         <div className="col">

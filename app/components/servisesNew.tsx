@@ -56,64 +56,6 @@ const servisesNew = () => {
                                 </p>
                             </div>
                         </div>
-                        {/*</section>*/}
-
-                        {/*<section style={{*/}
-                        {/*    marginTop: "-50px",*/}
-                        {/*    // backgroundImage: `url(${backgroundImages.src})`,*/}
-                        {/*    // backgroundPosition: "center",*/}
-                        {/*    // backgroundSize: "cover",*/}
-                        {/*    // backgroundRepeat: "no-repeat",*/}
-                        {/*    width: "100vw",*/}
-                        {/*    height: "100vh",*/}
-                        {/*    // display: 'grid',*/}
-                        {/*    alignItems: 'center',*/}
-                        {/*    justifyContent: 'center'*/}
-                        {/*}}*/}
-                        {/*         id="servises"*/}
-                        {/*         className={styles[`bg-ani-003`]}*/}
-                        {/*>*/}
-
-                        {/*<div className="container" style={{paddingTop: "50px"}}>*/}
-                        {/*    <div className="row">*/}
-                        {/*        <div*/}
-                        {/*            style={{*/}
-                        {/*                // display: "flex",*/}
-                        {/*                // alignItems: "center",*/}
-                        {/*                display: "flex",*/}
-                        {/*                alignItems: "center",*/}
-                        {/*                justifyContent: "center",*/}
-                        {/*                height: "100%"*/}
-                        {/*            }}*/}
-                        {/*        >*/}
-                        {/*            <Image src="/img/icon-008.svg"*/}
-                        {/*                   className="img-fluid"*/}
-                        {/*                   alt="Logo"*/}
-                        {/*                   width={250}*/}
-                        {/*                   height={250}*/}
-                        {/*                   style={{*/}
-                        {/*                       marginRight: "20px",*/}
-                        {/*                       width: "auto",*/}
-                        {/*                       height: "50px"*/}
-                        {/*                   }}/>*/}
-                        {/*            <h1 className="text-center text-light">*/}
-                        {/*                Наши услуги*/}
-                        {/*            </h1>*/}
-                        {/*        </div>*/}
-                        {/*    </div>*/}
-
-                        {/*</div>*/}
-                        {/*<div*/}
-                        {/*style={{*/}
-                        {/*    width: "100%",*/}
-                        {/*    height: "1rem",*/}
-                        {/*    backgroundColor: "rgba(0, 0, 0, .1)",*/}
-                        {/*    border: "solid rgba(0, 0, 0, .15)",*/}
-                        {/*    borderWidth: "1px 0",*/}
-                        {/*    boxShadow: "inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15)"*/}
-                        {/*}}*/}
-                        {/*>*/}
-                        {/*</div>  */}
 
                         <div className="container"
                             // style={{marginTop: "50px"}}

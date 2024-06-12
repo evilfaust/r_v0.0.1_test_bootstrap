@@ -6,37 +6,47 @@ import {Col, Row} from "react-bootstrap";
 import React from "react";
 import Contacts from "@/app/components/contacts";
 import Contactsform from "@/app/components/contactsform";
+import rudaMagmin from "@/public/img/magnit.svg";
+import HeroPage from "@/app/components/heroPage";
 export default function SearchCompanyPage() {
 
     return (
         <div>
             <NavBar/>
-            <section className={styles[`bg-ani-002`]}>
-                <div className="container col-xxl-8 px-4 py-5">
-                    <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-                        <div className="col-10 col-sm-8 col-lg-6">
-                            <Image src="/img/test-hero-img-001.png" className="img-fluid mb-4"
-                                   alt="Example image" width="700" height="500" loading="lazy"/>
-                        </div>
-                        <div className="col-lg-6">
-                            <h2 className="display-5 fw-bold text-light lh-1 mb-3">Поиск сотрудников для компании</h2>
-                            <h5 className="text-light">Найдите идеальных кандидатов для вашей компании</h5>
-                            <p className="lead text-light">
-                                Вы ищете талантливых и подходящих сотрудников для вашей компании?
-                                Мы в RU.DA здесь, чтобы помочь вам! Наша цель - обеспечить вас квалифицированными
-                                специалистами, которые будут соответствовать вашим требованиям и способствовать
-                                успеху вашего бизнеса.
-                            </p>
-                            {/*<div className="d-grid gap-2 d-md-flex justify-content-md-start">*/}
-                            {/*    <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Primary</button>*/}
-                            {/*    <button type="button" className="btn btn-outline-secondary btn-lg px-4">Default</button>*/}
-                            {/*</div>*/}
-                        </div>
-                    </div>
-                </div>
-                <div>
-                </div>
-            </section>
+            <HeroPage title={"Поиск сотрудников для компании"}
+                      shortDiscription={"Найдите идеальных кандидатов для вашей компании"}
+                      discription={"ЦВы ищете талантливых и подходящих сотрудников для вашей компании?\n" +
+                          " Мы в RU.DA здесь, чтобы помочь вам! Наша цель - обеспечить вас квалифицированными\n" +
+                          " специалистами, которые будут соответствовать вашим требованиям и способствовать\n" +
+                          " успеху вашего бизнеса."}
+                      image={`${rudaMagmin.src}`} />
+
+            {/*<section className={styles[`bg-ani-002`]}>*/}
+            {/*    <div className="container col-xxl-8 px-4 py-5">*/}
+            {/*        <div className="row flex-lg-row-reverse align-items-center g-5 py-5">*/}
+            {/*            <div className="col-10 col-sm-8 col-lg-6">*/}
+            {/*                <Image src="/img/test-hero-img-001.png" className="img-fluid mb-4"*/}
+            {/*                       alt="Example image" width="700" height="500" loading="lazy"/>*/}
+            {/*            </div>*/}
+            {/*            <div className="col-lg-6">*/}
+            {/*                <h2 className="display-5 fw-bold text-light lh-1 mb-3">Поиск сотрудников для компании</h2>*/}
+            {/*                <h5 className="text-light">Найдите идеальных кандидатов для вашей компании</h5>*/}
+            {/*                <p className="lead text-light">*/}
+            {/*                    Вы ищете талантливых и подходящих сотрудников для вашей компании?*/}
+            {/*                    Мы в RU.DA здесь, чтобы помочь вам! Наша цель - обеспечить вас квалифицированными*/}
+            {/*                    специалистами, которые будут соответствовать вашим требованиям и способствовать*/}
+            {/*                    успеху вашего бизнеса.*/}
+            {/*                </p>*/}
+            {/*                /!*<div className="d-grid gap-2 d-md-flex justify-content-md-start">*!/*/}
+            {/*                /!*    <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Primary</button>*!/*/}
+            {/*                /!*    <button type="button" className="btn btn-outline-secondary btn-lg px-4">Default</button>*!/*/}
+            {/*                /!*</div>*!/*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*    <div>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
             <section>
                 <div className="container px-4 py-5" id="hanging-icons">
                     <h2 className="pb-2 text-center">Почему выбирают нас?</h2>

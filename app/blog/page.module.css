@@ -313,13 +313,25 @@
 
 }
 
-.card-cover {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
 .feature-icon-small {
   width: 3rem;
   height: 3rem;
 }
+
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.card-cover:hover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transform: scale(1.05); /* Увеличивает карточку на 5% */
+}
+
+
