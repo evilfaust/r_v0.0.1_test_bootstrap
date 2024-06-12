@@ -2,7 +2,13 @@ import NavBar from "@/app/components/navbar";
 import Contacts from "@/app/components/contacts";
 import styles from "@/app/blog/page.module.css";
 import React from "react";
-import resume005 from "@/public/img/unsplash-photo-1.jpg";
+// images career cards
+import careerImage001 from "@/public/img/careerImage001.png";
+import careerImage002 from "@/public/img/careerImage002.png";
+import careerImage003 from "@/public/img/careerImage003.png";
+import careerImage004 from "@/public/img/careerImage004.png";
+import careerImage005 from "@/public/img/careerImage005.png";
+
 import BaseCards3item from "@/app/components/basecards3item";
 import Image from "next/image";
 import Whywe from "@/app/components/whywe";
@@ -38,7 +44,7 @@ const Career = () => {
                     <h2 className="pb-2n text-center" style={{color: "#FFC803"}}>Наши Услуги</h2>
                     <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                         <BaseCards3item title={"Планирование Карьеры"}
-                                        imgurl={`${resume005.src}`}
+                                        imgurl={`${careerImage001.src}`}
                                         title1={"Анализ текущей ситуации:"}
                                         discription1={" Оценка вашего текущего положения, навыков и достижений."}
                                         title2={"Определение целей:"}
@@ -47,7 +53,7 @@ const Career = () => {
                                         discription3={" Создание детального плана действий для достижения поставленных целей."}
                         />
                         <BaseCards3item title={"Профессиональная Переподготовка"}
-                                        imgurl={`${resume005.src}`}
+                                        imgurl={`${careerImage002.src}`}
                                         title1={"Оценка навыков и компетенций:"}
                                         discription1={" Анализ ваших текущих навыков и выявление потребности в дополнительных знаниях или умениях."}
                                         title2={"Рекомендации по обучению:"}
@@ -56,7 +62,7 @@ const Career = () => {
                                         discription3={""}
                         />
                         <BaseCards3item title={"Консультации по Рынку Труда"}
-                                        imgurl={`${resume005.src}`}
+                                        imgurl={`${careerImage003.src}`}
                                         title1={"Анализ рынка:"}
                                         discription1={" Информация о текущих тенденциях и требованиях на рынке труда в вашей области."}
                                         title2={"Сравнительный анализ:"}
@@ -65,7 +71,7 @@ const Career = () => {
                                         discription3={""}
                         />
                         <BaseCards3item title={"Подготовка к Собеседованиям"}
-                                        imgurl={`${resume005.src}`}
+                                        imgurl={`${careerImage004.src}`}
                                         title1={"Тренинги и ролевые игры:"}
                                         discription1={" Подготовка к различным типам собеседований, включая стрессовые интервью и групповые дискуссии."}
                                         title2={"Советы и рекомендации:"}
@@ -74,7 +80,7 @@ const Career = () => {
                                         discription3={""}
                         />
                         <BaseCards3item title={"Адаптация к Новому Месту Работы"}
-                                        imgurl={`${resume005.src}`}
+                                        imgurl={`${careerImage005.src}`}
                                         title1={"Первые шаги:"}
                                         discription1={" Помощь в адаптации к новому коллективу и рабочей культуре."}
                                         title2={"Управление ожиданиями:"}
