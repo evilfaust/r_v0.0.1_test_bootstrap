@@ -41,7 +41,7 @@ const Career = () => {
             </section>
             <section className={styles[`bg-ani-003`]} style={{marginTop: "-50px"}}>
                 <div className="container px-4 py-5" id="custom-cards">
-                    <h2 className="pb-2n text-center" style={{color: "#FFC803"}}>Наши Услуги</h2>
+                    {/*<h2 className="pb-2n text-center" style={{color: "#FFC803"}}>Наши Услуги</h2>*/}
                     <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                         <BaseCards3item title={"Планирование Карьеры"}
                                         imgurl={`${careerImage001.src}`}

@@ -5,6 +5,7 @@ import Image from "next/image";
 // import {Modal} from "react-bootstrap";
 // import {useState} from "react";
 import CastingButton from "@/app/components/castingbutton";
+import {NavDropdown} from "react-bootstrap";
 // import {useEffect} from "react";
 
 const NavBar = () => {
@@ -38,9 +39,20 @@ const NavBar = () => {
                 <li className="nav-item">
                   <a className="nav-link" aria-current="page" href="#">О компании</a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/#servises">Наши услуги</a>
-                </li>
+                {/*<li className="nav-item">*/}
+                {/*  <a className="nav-link" href="/#servises">Наши услуги</a>*/}
+                {/*</li>*/}
+
+                  <NavDropdown title="Наши Услуги" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="/#servises">Наши услуги</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="/jobsearch">Поиск работы</NavDropdown.Item>
+                    <NavDropdown.Item href="/searchcompany">Поиск сотрудников для компании</NavDropdown.Item>
+                    <NavDropdown.Item href="/resume">Подготовка резюме</NavDropdown.Item>
+                    <NavDropdown.Item href="/career">Карьерная Консультация</NavDropdown.Item>
+                  </NavDropdown>
+
+
                 <li>
                   <a className="nav-link" aria-current="page" href="#contats">Контакты</a>
                 </li>
